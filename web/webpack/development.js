@@ -5,8 +5,6 @@ const { devServer } = require('../mock');
 const extensions = ['.web.js', '.js'];
 const rules = ['babel', 'image', 'ttf'].map(name => require(`./loaders/${name}`));
 
-console.log(rules);
-
 module.exports = {
   entry: [
     path.join(contentBase, 'index.web.js'),

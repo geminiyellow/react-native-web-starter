@@ -7,6 +7,7 @@ module.exports = {
     path.resolve(contentBase, 'index.web.js'),
     path.resolve(contentBase, 'src'),
     /node_modules\/react-native-/,
+    /node_modules\/react-router/,
   ],
   use: {
     loader: 'babel-loader',
