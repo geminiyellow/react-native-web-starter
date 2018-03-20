@@ -1,11 +1,6 @@
-import { default as About } from './container';
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
-import { actions } from './model';
+import module from './module';
 
-const mapStateToProps = state => state;
-const mapDispatchToProps = dispatch => ({ actions: bindActionCreators(actions, dispatch) });
-const Container = connect(mapStateToProps, mapDispatchToProps)(About)
+const { Container, Reducer } = module;
 
 export const route = { path: '/', main: Container };
-export default Container;
+export { Container, Reducer };

@@ -5,8 +5,8 @@ import styles from './styles';
 
 export default class About extends Component {
   render() {
-    const { about, actions: { count: handlePress } } = this.props;
-    const { count } = about ? about.toJS() : {};
+    const { store, actions: { count: handlePress, fetch: handleFetch } } = this.props;
+    const { count } = store ? store.toJS() : {};
 
     return (
       <View style={styles.container}>
@@ -14,7 +14,8 @@ export default class About extends Component {
           Hi from About Screen. {count}
         </Text>
         <Link to="/"><Text>Home</Text></Link>
-        <Button title={'count'} onPress={handlePress} />
+        <Button title={'count'} onPress={() => handlePress(count)} />
+        <Button title={'fetch'} onPress={() => handleFetch(count)} />
       </View>
     );
   }
