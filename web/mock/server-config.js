@@ -10,6 +10,6 @@ module.exports = {
   },
   // Here you can access the Express app object and add your own custom middleware to it.
   // For example, to define custom handlers for some paths:
-  before: app => { },
+  before: require('./api'),
   historyApiFallback: true
 };
