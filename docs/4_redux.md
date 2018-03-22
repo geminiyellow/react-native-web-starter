@@ -8,8 +8,8 @@
 - [redux-actions](https://github.com/redux-utilities/redux-actions)
 - [immutable-js](https://github.com/facebook/immutable-js)
 
-## Getting Starte
+## Getting Started
 
-Read redux offical document: [Redux](https://redux.js.org/)
+Read redux official document: [Redux](https://redux.js.org/)
 
 ![GettingStartedReduxSSuccess](images/GettingStartedReduxSSuccess.gif)
