@@ -11,16 +11,16 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "^16.3.0-alpha.2",
-    "react-dom": "^16.2.0",
-    "react-native": "0.54.2",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-native": "0.54.4",
     "react-native-web": "^0.5.3",
     "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-router-native": "^4.2.0",
     "redux": "^3.7.2",
-    "redux-api-actions": "file:src/modules/redux-api-actions",
+    "redux-api-actions": "0.0.10",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0"
   },
@@ -34,10 +34,10 @@
     "babel-preset-stage-0": "^6.24.1",
     "file-loader": "^1.1.11",
     "jest": "23.0.0-alpha.0",
-    "react-test-renderer": "^16.3.0-alpha.1",
+    "react-test-renderer": "^16.3.0",
     "url-loader": "^1.0.1",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.12",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
     "webpack-dev-server": "^3.1.1"
   },
   "jest": {
