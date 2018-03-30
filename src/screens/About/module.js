@@ -1,6 +1,6 @@
 import creator from 'redux-api-actions';
-import Root from './container';
 import { endpoint } from './constants';
+import Root from './container';
 
 export default creator({
   namespace: 'about',
@@ -14,6 +14,6 @@ export default creator({
       endpoint,
       before: count => ({ endpoint: `${endpoint}/${count}` }),
       success: (state, { payload: { count } }) => state.update('count', v => count),
-    }
+    },
   },
 });
