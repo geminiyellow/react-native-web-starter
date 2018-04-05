@@ -4,6 +4,7 @@ import Drawer from './screens/Drawer';
 
 import store from './store';
 
+import './utils/polyfill';
 import { Router } from './utils/react-router';
 
 export default class Root extends Component {

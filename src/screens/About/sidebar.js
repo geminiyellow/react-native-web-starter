@@ -1,4 +1,9 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { View, Text } from 'react-native';
+import { Icon } from 'react-native-elements';
 
-export default () => <Text>About</Text>;
+export default () => (
+  <View>
+    <Icon name='home' /><Text>About</Text>
+  </View>
+);
